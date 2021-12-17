@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact component={AllUsersList} />
+          <Route path="/task" exact component={AllUsersList} />
           <Route path="/user/:userId" exact component={UserDetails} />
         </Switch>
       </Router>
