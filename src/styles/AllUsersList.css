@@ -1,0 +1,9 @@
+.allUsersList-cont {
+    min-height: 98vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+

@@ -1,0 +1,42 @@
+.userDetails {
+    margin: auto;
+    width: 95%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-details-image img {
+    width: 250px;
+}
+
+.user-about {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.user-info {
+    width: 60%;
+    min-height: 100%;
+}
+
+.user-about .label, .user-info .label {
+    text-decoration: underline;
+}
+
+.friends-list-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 630px) {
+    .user-about {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .user-details-image img {
+        width: 100%;
+    }
+}

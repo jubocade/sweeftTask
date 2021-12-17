@@ -1,0 +1,7 @@
+.loading {
+    position: relative;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+}
